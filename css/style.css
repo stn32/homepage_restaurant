@@ -911,7 +911,7 @@ body, div, a, p, span {box-sizing: border-box;}
 .card.active .card__amount {
     display: flex;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 .card__amount a {
     display: flex;
@@ -949,7 +949,12 @@ body, div, a, p, span {box-sizing: border-box;}
     .card__add span {
         display: none;
     }
-
+    .card__amount a {
+        height: 25px;
+        width: 25px;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
 }
 
 
