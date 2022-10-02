@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Restaurant Elite</title>
+</head>
+<body>
+    
+    <header class="head">
+        <div class="container">
+            <div class="head__btn1">
+                <div class="bm1"></div>
+                <div class="bm2"></div>
+                <div class="bm3"></div>
+            </div>
+            <a href="" class="head__logo">
+                <img src="i/logo.png" alt="logo">
+            </a>
+            <a class="head__adress">
+                <img src="i/icon_01.svg" alt="icon">
+                <span>Укажите адрес доставки</span>
+            </a>
+            <a href="" class="head__call">
+                <img src="i/icon_03.svg" alt="icon">
+                <span>Позвонить</span>
+            </a>
+            <a href="" class="head__fav">
+                <img src="i/icon_04.svg" alt="icon">
+                <span>Избранное</span>
+            </a>
+            <a href="" class="head__profil">
+                <img src="i/icon_05.svg" alt="icon">
+                <span>Профиль</span>
+            </a>
+            <a class="head__btn_cart">
+                <img src="i/icon_06.svg" alt="icon">
+                <span>Корзина</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="menu_dop">
+        <div class="container">
+            <div class="menu_dop__menu">
+                <div class="menu_dop__serch">
+                    <input class="menu_dop__input" type="text" placeholder="Поиск">
+                    <input class="menu_dop__submit" type="submit" value="">
+                </div>
+                <div class="menu_dop__links">
+                    <h3>Меню и каталоги</h3>
+                    <li><a href="">Доставка еды</a></li>
+                    <li><a href="">Торты на заказ</a></li>
+                    <li><a href="">Специальное меню</a></li>
+                </div>
+                <div class="menu_dop__sub1">
+                    <a class="menu_dop__sub1_btn"><h3>Покупателю</h3><img src="i/icon_02.svg" alt="icon"></a>
+                    <div class="menu_dop__sub1_hide">
+                        <li><a href="">Как заказать кулинарию</a></li>
+                        <li><a href="">Как заказать торт</a></li>
+                        <li><a href="">Оплата и доставка</a></li>
+                        <li><a href="">Бонусная программа</a></li>
+                        <li><a href="">Акции</a></li>
+                        <li><a href="">0000</a></li>
+                    </div>
+                </div>
+                <div class="menu_dop__sub2">
+                    <a class="menu_dop__sub2_btn"><h3>Компания</h3><img src="i/icon_02.svg" alt="icon"></a>
+                    <div class="menu_dop__sub2_hide">
+                        <li><a href="">О "Баранкин"</a></li>
+                        <li><a href="">Отзывы</a></li>
+                        <li><a href="">Новости</a></li>
+                        <li><a href="">Вакансии</a></li>
+                        <li><a href="">Сотрудничество</a></li>
+                        <li><a href="">Сертификаты</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </div>
+                </div>
+                <div class="menu_dop__sub3">
+                    <a href=""><h3>График работы</h3></a>
+                </div>
+            </div>
+
+            <div class="menu_dop__search2">
+                <li><a class="menu_dop__search2_map">Добавить новый адрес<img src="i/plus.svg" alt="icon"></a></li>
+                <li><a>Никитинская 42<img src="i/mark.svg" alt="icon"></a></li>
+                <li><a>пл. Ленина 12а, д. 42</a></li>
+            </div>
+        </div>
+    </section>
+
+    <div class="menu_dop__map_popup">
+        <p>Укажите адрес доставки</p>
+        <div class="menu_dop__map_popup_input">
+            <input type="text" placeholder="Укажите адрес доставки">
+            <button>ПОИСК</button>
+        </div>
+        <div>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6bce87db03f01dc16c8586b44e40cbbe44bb280f91aee1e43833162b8b768960&amp;source=constructor" width="100%" height="400px" frameborder="0"></iframe>
+        </div>
+        <a class="menu_dop__map_popup_exit">╳</a>
+    </div>
+    <div class="menu_dop__map_popup_shadow"></div>
+
+    <div class="cart_pupup">
+        <h2>Корзина</h2>
+        <span>Очистить</span>
+        <div class="cart_pupup__warning">
+            <img src="i/cart_warning_icon.svg" alt="icon">
+            <span>Минимальный заказ — 500 рублей. Добавьте товаров на 110 рублей, чтобы доставка стала бесплатной</span>
+        </div>
+        <div class="cart_popup__list">
+            <div class="cart_popup__item">
+                <img src="i/cart_01.png" alt="">
+                <div class="cart_popup__item_col1">
+                    <a>Кускус с вялеными томатами</a>
+                    <p>200г</p>
+                </div>
+                <div class="cart_popup__item_col2">1 шт</div>
+                <div class="cart_popup__item_col3">135 ₽</div>
+                <img class="cart_popup__item_icon" src="i/icon_cart.svg" alt="icon">
+            </div>
+            <div class="cart_popup__item">
+                <img src="i/cart_01.png" alt="">
+                <div class="cart_popup__item_col1">
+                    <a>Кускус с вялеными томатами</a>
+                    <p>200г</p>
+                </div>
+                <div class="cart_popup__item_col2">1 шт</div>
+                <div class="cart_popup__item_col3">135 ₽</div>
+                <img class="cart_popup__item_icon" src="i/icon_cart.svg" alt="icon">
+            </div>
+            <div class="cart_popup__item">
+                <img src="i/cart_01.png" alt="">
+                <div class="cart_popup__item_col1">
+                    <a>Кускус с вялеными томатами</a>
+                    <p>200г</p>
+                </div>
+                <div class="cart_popup__item_col2">1 шт</div>
+                <div class="cart_popup__item_col3">135 ₽</div>
+                <img class="cart_popup__item_icon" src="i/icon_cart.svg" alt="icon">
+            </div>
+        </div>
+        <div class="cart_pupup__info">
+            <span>Доставка</span>
+            <span>135 ₽</span>
+        </div>
+        <div class="cart_pupup__info">
+            <span>Время доставки</span>
+            <span>Минимально через 1 час</span>
+        </div>
+        <div class="cart_pupup__sum">
+            <span>Итого</span>
+            <span>135 ₽</span>
+        </div>
+        <a class="cart_pupup__order_btn">Оформить заказ</a>
+        <a class="cart_pupup__close">╳</a>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="home1__title">
+                <h1>Доставка еды</h1>
+                <h2>Торты на заказ</h2>
+                <h2>Специальное меню</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="home1__slider">
+        <div class="container">
+            <div class="home1__slider_wrap">
+                <div class="home1__slider_box">
+                    <div class="home1__slider_item">
+                        <h3>Пасхальные куличи от 320 руб.</h3>
+                        <img src="i/img_01.jpg" alt="img">
+                    </div>
+                    <div class="home1__slider_item">
+                        <h3>Новые морсы и компоты</h3>
+                        <img src="i/img_02.jpg" alt="img">
+                    </div>
+                    <div class="home1__slider_item">
+                        <h3>Брускетта с вялеными томатами и курицей</h3>
+                        <img src="i/img_03.jpg" alt="img">
+                    </div>
+                    <div class="home1__slider_item">
+                        <h3>Хотите сладкого?</h3>
+                        <img src="i/img_04.jpg" alt="img">
+                    </div>
+                    <div class="home1__slider_item">
+                        <h3>Постное меню</h3>
+                        <img src="i/img_05.jpg" alt="img">
+                    </div>
+                    <div class="home1__slider_item">
+                        <h3>График работы на праздниках</h3>
+                        <img src="i/img_06.jpg" alt="img">
+                    </div>
+                    <div class="home1__slider_item">
+                        <h3>Новые морсы и компоты</h3>
+                        <img src="i/img_02.jpg" alt="img">
+                    </div>
+                    <div class="home1__slider_item">
+                        <h3>Брускетта с вялеными томатами и курицей</h3>
+                        <img src="i/img_03.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+            <a class="slider__next_btn"><img src="i/icon_02.svg" alt="icon"></a>
+        </div>
+    </section>
+
+    <section class="home1__tags_wrap">
+        <div class="container">
+            <h2>Каталог кулинарии</h2>
+            <div class="home1__tags">
+                <a class="home1__tag"><img src="i/tag_01.svg" alt="icon"><span>Популярное</span></a>
+                <a class="home1__tag"><img src="i/tag_02.svg" alt="icon"><span>Холодные закуски</span></a>
+                <a class="home1__tag"><img src="i/tag_03.svg" alt="icon"><span>Салаты</span></a>
+                <a class="home1__tag"><img src="i/tag_04.svg" alt="icon"><span>Первые блюда</span></a>
+                <a class="home1__tag"><img src="i/tag_05.svg" alt="icon"><span>Гарниры</span></a>
+                <a class="home1__tag"><img src="i/tag_06.svg" alt="icon"><span>Вторые блюда</span></a>
+                <a class="home1__tag"><span>Еще</span><img src="i/icon_02.svg" alt="icon"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards">
+        <div class="container">
+            <h2>Популярное</h2>
+            <div class="cards__box">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_01.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>Сезонное</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Кускус с вялеными томатами</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_02.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>Сезонное</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Капуста жаренная с грибами</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img card__yellow_tag">
+                        <img src="i/card_03.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>-20%</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Печеные овощи с соусом песто</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img card__yellow_tag">
+                        <img src="i/card_04.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>-35%</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Шампиньоны маринованные</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_05.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>Сезонное</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Кускус с вялеными томатами</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_06.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                    </div>
+                    <div class="card__info">
+                        <h4>Капуста жаренная с грибами</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_07.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                    </div>
+                    <div class="card__info">
+                        <h4>Печеные овощи с соусом песто</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_08.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                    </div>
+                    <div class="card__info">
+                        <h4>Шампиньоны маринованные</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card_preview">
+        <div class="card_preview__item">
+            <div class="card_preview__left">
+                <img src="i/cart_preview.png" alt="img">
+                <img src="i/fav_01.svg" alt="icon">
+                <span>-20%</span>
+            </div>
+            <div class="card_preview__right">
+                <h4>Печеные овощи с соусом песто</h4>
+                <p>Сельдь слабосоленая, отварные овощи: картофель, морковь, свекла, яйцо куриное, майонез.</p>
+                <span>Добавить к заказу</span>
+                <div class="card_preview__add_goods">
+                    <div>
+                        <img src="i/preview_01.png" alt="img">
+                        <p>Хлеб балтийский</p>
+                        <span>12 ₽</span>
+                    </div>
+                    <div>
+                        <img src="i/preview_02.png" alt="img">
+                        <p>Компот из сухофруктов</p>
+                        <span>12 ₽</span>
+                    </div>
+                    <div>
+                        <img src="i/preview_03.png" alt="img">
+                        <p>Соус Heinz кисло-сладкий</p>
+                        <span>12 ₽</span>
+                    </div>
+                </div>
+                <div class="card_preview__info">
+                    <a>Доп. информация</a>
+                    <p><b>Срок хранения</b> 2 суток</p>
+                    <p><b>Условия хранения</b>  от -2°С  до -5°С</p>
+                    <p><b>Время доставки:</b> в течении часа или в указанное время</p>
+                    <p><b>Способы оплаты:</b> Наличные и банковская карта</p>
+                    <p><b>Пищевая ценность:</b> В 100 г. продукта:  белки 17,1 г; жиры 10,6 г; углеводы 14,6 г; 222,2 ккал</p>
+                </div>
+                <div class="card_preview__buttons">
+                    <div class="card_preview__buttons_1">
+                        <span>250 ₽</span><span>200г</span>
+                    </div>
+                    <div class="card__add">
+                        <img src="i/icon_06.svg" alt="icon">
+                        <span>В корзину</span>
+                    </div>
+                </div>
+            </div>
+            <a class="card_preview__close">╳</a>
+        </div>
+    </section>
+
+    <section class="cards2">
+        <div class="container">
+            <h2>Популярное</h2>
+            <div class="cards__box">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_01.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>Сезонное</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Кускус с вялеными томатами</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_02.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>Сезонное</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Капуста жаренная с грибами</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img card__yellow_tag">
+                        <img src="i/card_03.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>-20%</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Печеные овощи с соусом песто</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img card__yellow_tag">
+                        <img src="i/card_04.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>-35%</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Шампиньоны маринованные</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_05.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                        <a>Сезонное</a>
+                    </div>
+                    <div class="card__info">
+                        <h4>Кускус с вялеными томатами</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_06.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                    </div>
+                    <div class="card__info">
+                        <h4>Капуста жаренная с грибами</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_07.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                    </div>
+                    <div class="card__info">
+                        <h4>Печеные овощи с соусом песто</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__img">
+                        <img src="i/card_08.jpg" alt="img">
+                        <img class="card__fav_icon" src="i/fav_01.svg" alt="icon">
+                    </div>
+                    <div class="card__info">
+                        <h4>Шампиньоны маринованные</h4>
+                        <span>Кускус, вяленые томаты, чеснок, петрушка, соль, специи, растительное масло.</span>
+                        <div class="card__bottom">
+                            <div class="card__price">
+                                <span>135 ₽</span>
+                                <span>200г</span>
+                            </div>
+                            <div class="card__btn">
+                                <div class="card__add">
+                                    <img src="i/icon_06.svg" alt="icon">
+                                    <span>В корзину</span>
+                                </div>
+                                <div class="card__amount">
+                                    <a class="cart__minus">-</a>
+                                    <span>1</span>
+                                    <a class="cart__plus">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__col">
+                    <li><a href=""><h2>Меню и каталоги</h2></a></li>
+                    <li><a href="">Кулинария</a></li>
+                    <li><a href="">Банкетное меню</a></li>
+                    <li><a href="">Кондитерская</a></li>
+                    <li><a href="">Корпоративные обеды</a></li>
+                </div>
+                <div class="footer__col">
+                    <li><a href=""><h2>Покупателю</h2></a></li>
+                    <li><a href="">Как заказать кулинарию</a></li>
+                    <li><a href="">Как заказать торт</a></li>
+                    <li><a href="">Оплата и доставка</a></li>
+                    <li><a href="">Бонусная программа</a></li>
+                </div>
+                <div class="footer__col">
+                    <li><a href=""><h2>Компания</h2></a></li>
+                    <li><a href="">О нас</a></li>
+                    <li><a href="">Отзывы</a></li>
+                    <li><a href="">Новости</a></li>
+                    <li><a href="">Вакансии</a></li>
+                    <li><a href="">Сотрудничество</a></li>
+                    <li><a href="">Сертификаты</a></li>
+                </div>
+                <div class="footer__col">
+                    <li><a href=""><h2>График работы</h2></a></li>
+                    <li><a href=""><b>График кулинарий</b></a></li>
+                    <li><a href=""><b>Пн - Cб:</b> 8:00 - 21:00</a></li>
+                    <li><a href=""><b>Вс:</b> 11:00 - 21:00</a></li>
+                    <li><a href=""><b>График доставки</b></a></li>
+                    <li><a href=""><b>Пн - Cб:</b> 8:00 - 21:00</a></li>
+                    <li><a href=""><b>Вс:</b> 11:00 - 21:00</a></li>
+                </div>
+                <div class="footer__col">
+                    <li><a href=""><h2>Контакты</h2></a></li>
+                    <li><a href="">+7 473 261-04-30</a></li>
+                    <li><a href="">gmail@mail.ru</a></li>
+                    <li><a href="">Адреса кулинарий</a></li>
+                </div>
+            </div>
+            <div class="footer__sign">
+                <span>© ООО «Мосттрейд». Все права защищены. Политика конфиденциальности</span>
+                <span>Разработано в Вебфлай</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
